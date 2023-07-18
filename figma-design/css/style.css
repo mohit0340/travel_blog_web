@@ -1,0 +1,631 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@400;700&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+    font-family:"Lato";
+    
+}
+
+
+.btn{
+background-color: blue;
+color: white;
+height: 40px;
+width: 110px;
+border-radius: 5px;
+}
+.btn:hover{
+    background-color: rgba(94, 94, 241, 0.326);
+    color: black;
+}
+
+
+
+#header-div{
+    background-image: url(/assets/Rectangle\ 1.png);
+    height: 587px;
+    width: 100%;
+    margin-bottom: 60px;
+
+
+    
+}
+
+
+
+#main-nav{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-left: 20px;
+    padding: 20px 30px;
+
+}
+
+
+#nav-menu{
+    padding-left: 361px;
+}
+
+
+#nav-menu ul{
+    display: flex;
+    gap: 100px;
+
+}
+
+.nav-li{
+    list-style: none;
+    color: orange;
+    font-size:15px;
+    font-weight: 500;
+    line-height: 14px;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.nav-li:hover{
+
+    background-color: blue;
+    color: white;
+}
+
+.header-text{
+    padding-top: 20px;
+    font-family:'Lato,Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    line-height: normal;
+}
+
+.header-text span{
+    color: orange;
+}
+.main-slogan{
+    font-size:64px ;
+    font-weight: 800;
+    line-height: 89px;
+}
+
+.main-btn{
+    height: 55px;
+    width: 15%;
+    margin-top: 40px;
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+
+.scroll-item{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 60px;
+}
+.scroll-item img{
+
+    padding-top: 40px;
+}
+
+/* content css  of home*/
+
+.main-content{
+    margin: 0 40px;
+    display: flex;
+    gap: 70px;
+    margin-bottom: 60px;
+}
+
+.about-card{
+    height: 430px;
+    width: 350px;
+    background-color: #FFF;
+    box-shadow: 8px 8px 4px 10px rgba(57, 67, 70, 0.469);
+    margin-bottom: 40px;
+    text-align: center;
+}
+.about-card img{
+    height: 230px;
+    width: 300px;
+}
+.categories1{
+    height: 330px;
+    width: 350px;
+    box-shadow: 8px 8px 4px 10px rgba(57, 67, 70, 0.469);
+    margin-bottom: 40px;
+
+ 
+    
+}
+
+.categories{
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    font-size: 20px;
+
+    padding: 0 20px;
+    background-color: #FFF;
+    
+
+}
+
+.popular-post{
+
+    height: 50px;
+    width: 350px;
+    box-shadow: 8px 8px 4px 10px rgba(57, 67, 70, 0.469);
+    margin-bottom: 40px;
+    text-align: center;
+    
+}
+.popular-post h3{
+    padding-top: 10px;
+}
+
+
+
+
+.penang-guide{
+    height: 800px;
+    width: 783px;
+    box-shadow: 8px 8px 4px 10px rgba(57, 67, 70, 0.469);
+    margin-bottom: 40px;
+
+}
+.penang-guide img{
+    height: 453px;
+    width: 783px;
+
+}
+.penang-guide span{
+    color: orange;
+}
+
+.penang-main-text{
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 47px;
+    height: 123px;
+    width: 769px;
+
+}
+.penang-text{
+    margin: 0 10px;
+}
+
+.penang-lorem{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+ .penang-text  img{
+    height:20px;
+    width: 12.75px;
+}
+#locationnm{
+    color: black;
+}
+
+#locationnm1{
+    color: black;
+
+    margin-left: 400px; 
+}
+
+
+.photos-description{
+
+    width: 783px;
+    display: flex;
+    gap: 30px;
+ 
+
+}
+
+.left-part-img{
+    width: 377px;
+    height: 500px;
+    box-shadow: 8px 8px 4px 10px rgba(57, 67, 70, 0.469);
+    margin-bottom: 40px;
+   
+
+}
+.photos-description img{
+    height: 268px;
+    width: 379px;
+}
+.photos-description span{
+    color: orange;
+}
+
+
+.right-part-img{
+    width: 377px;
+    height: 500px;
+    box-shadow: 8px 8px 4px 10px rgba(57, 67, 70, 0.469);
+    margin-bottom: 40px;
+
+
+}
+.img-part-text{
+    margin: 50px;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+.locationnm{
+    color: black;
+
+}
+
+
+.img-text-data img{
+    height: 20px;
+    width: 10px;
+
+}
+.img-text-data span{
+ color: black;   
+}
+.locationnm2{
+    margin-left: 170px;
+}
+
+.finding-card{
+    width: 350px;
+    background-image: url(/assets/image\ 4.png);
+    height: 270px;
+    box-shadow: 8px 8px 4px 10px rgba(57, 67, 70, 0.469);
+    color: white;
+    margin-bottom: 40px;
+
+
+}
+
+.finding-card p{    
+    padding-top: 20px;
+    text-align: center;
+
+
+}
+
+.finding-card button{
+    height: 30px;
+    width: 20px;
+
+    margin-left: 20px;
+    
+}
+
+.recent-post-data{
+    width: 350px;
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.recent-post-data1{
+    width: 350px;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.cart-description-big{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.bag-details{
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    margin-bottom: 40px;
+    box-shadow: 8px 8px 4px 10px rgba(57, 67, 70, 0.469);
+
+}
+.bag-details p{
+    font-size: 29.649px;
+font-style: normal;
+font-weight: 700;
+line-height: 51.392px; 
+}
+
+.bag-details span{
+    font-size: 24px;
+font-style: normal;
+font-weight: 100;
+line-height: 33.814px; 
+
+}
+
+.bag-data{
+    width: 350px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.bag-data1{
+    width: 350px;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.price{
+    color: blue;
+}
+
+.purchase{
+    width: 783px;
+    height: 400px;
+    color: white;
+    background-image: url(/assets/image\ 18.png);
+    text-align: center;
+    box-shadow: 8px 8px 4px 10px rgba(57, 67, 70, 0.469);
+    margin-bottom: 40px;
+
+
+
+}
+
+.purchase p{
+    padding-top: 30px;
+    font-size: 40px
+    
+}
+
+.purchase span{
+    color: orange;
+    text-decoration: underline;
+
+}
+
+.purchase button{
+    margin-top: 170px;
+    font-size: 15px;
+    height: 60px;
+    width: 140px;
+
+}
+
+.get-in-heading{
+    width: 350px;
+    height: 50px;
+    text-align: center;
+    padding-top: 13px;
+    box-shadow: 8px 8px 4px 10px rgba(57, 67, 70, 0.469);
+    margin-bottom: 40px;
+    
+
+
+}
+
+.social-media{
+display: flex;
+    width: 350px;
+}
+
+.right-media{
+width: 175px;
+margin-left: 5px;
+}
+
+.left-media{
+width: 175px;
+
+
+
+}
+
+.facebook{
+    background-color: blue;
+    color: white;
+    width: 170px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 7px;
+
+}
+.facebook img{
+    height: 28px ;
+    width: 14px;
+}
+.btn-txt{
+    font-size: 10px;
+}
+.facebook-btn-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4px;
+}
+
+.youtube{
+    background-color: rgb(243, 39, 36);
+    color: white;
+    width: 170px;
+    height: 40px;
+    border-radius: 5px;
+
+}
+
+.youtube-btn-main{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    
+    padding-top: 6px;
+}
+
+.youtube img{
+    height: 70px;
+    width: 80px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+   
+
+}
+.twitter{
+    background-color:rgb(137, 137, 241) ;
+    color: white;
+    width: 170px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    
+}
+
+.twitter-btn-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4px;
+
+}
+
+.insta{
+    background-color: rgb(222, 120, 137);
+    color: white;
+    width: 170px;
+    height: 40px;
+    border-radius: 5px;
+}
+.insta-btn-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4px;
+}
+
+
+/* foooter gallery */
+
+.main-gallery{
+    width: 100%;
+    display: flex;
+    margin-bottom: 70px;
+
+}
+.main-gallery img{
+    width: 99%;
+}
+
+.follow-btn{
+    background-image: url(/assets/3VTZloIMFP0.png);
+    width: 260px;
+    height: 288px;
+    
+}
+
+.follow-btn button{
+    width: 150px;
+    
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+/* subscribe */
+
+.subscribe-today{
+    /* text-align: center; */
+    display: flex;
+    margin: 0 200px;
+    gap: 40px;
+    margin-bottom: 60px;
+
+}
+
+.subscribe-today p{
+    font-size: 30px;
+}
+
+
+.subscribe-span{
+    color: blue;
+}
+
+.subscribe-today input{
+    width: 200px;
+    height: 38px;
+    padding-left: 5px;
+    margin-right:10px ;
+    margin-top: 2px;
+
+}
+
+/* footer locator */
+
+.footer-locator{
+    margin-top: 40px;
+    margin-left: 170px;
+    display: flex;
+    gap: 350px;
+    text-align: center;
+    /* justify-content: center; */
+    margin-bottom: 30px;
+}
+
+.locator-list ul {
+display: flex;
+gap:140px;
+text-align: center;
+justify-content: space-between;
+}
+
+.locator-list li{
+    list-style-type: none;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.locator-list{
+    text-align: center;
+}
+
+.main-footer{
+    background-color:grey;
+    width: 100%;
+    height: 270px;
+    display: flex;
+    gap: 40px;
+    padding: 30px 70px;
+    font-size: 17px;
+    color: white;
+    border: bottom 1px ;
+}
+
+.main-footer li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    
+}
+
+.travel-details{
+    margin-right: 30px;
+
+}
+
+.account-details{
+    margin-left: 50px;
+}
+
+
+/* bottum bar */
+
+.footer-side-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 140px;
+    padding: 0 90px 10px 90px;
+    
+    color: white;
+    background-color: grey;
+}
